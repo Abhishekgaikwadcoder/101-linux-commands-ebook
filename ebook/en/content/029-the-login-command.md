@@ -1,14 +1,15 @@
 # The `login` Command
 
-## Purpose
-Initiates a user session.
+The `login` command initiates a user session.
 
 ## Syntax
+
 ```bash
 $ login [-p] [-h host] [-H] [-f username|username]
 ```
 
 ## Flags and their functionalities
+
 |**Short Flag**    |**Description**   |
 |--|--|
 | `-f` |Used to skip a login authentication. This option is usually used by the getty(8) autologin feature.  |
@@ -19,6 +20,7 @@ $ login [-p] [-h host] [-H] [-f username|username]
 |-V|Display version information and exit.|
 
 ## Examples
+
 To log in to the system as user abhishek, enter the following at the login prompt:
 ```bash
 $ login: abhishek
